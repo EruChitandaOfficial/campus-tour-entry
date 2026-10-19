@@ -1,0 +1,16 @@
+node_modules/
+.openai/
+.sites-runtime/
+.sites-checkout/
+.DS_Store
+._*
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.log
+test-results/
+test-results.json
+screenshots/
+__pycache__/

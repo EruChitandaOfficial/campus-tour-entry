@@ -1,0 +1,13 @@
+{
+  "name": "milk-frog-university-gz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "学生趣味创作 · 非官方网站；无框架、无运行时依赖的欢迎页",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/timeline.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {"playwright": "^1.56.0"}
+}

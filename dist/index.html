@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151515" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="奶蛙带你参观港科广 · 奶蛙帶你參觀港科廣。学生趣味创作，非官方网站。">
+  <meta name="robots" content="noindex, nofollow">
+  <title>香港奶蛙大学（广州） · 奶蛙带你参观港科广</title>
+  <link rel="icon" href="assets/frame-01.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <main class="welcome" aria-label="奶蛙带你参观港科广">
+    <div class="animation-stage" id="stage" role="img" aria-label="提供的五张吉祥物图片依次移动、切换播放" data-frame="0">
+      <img class="mascot-frame" src="assets/frame-01.png" width="1024" height="1536" alt="" decoding="async" fetchpriority="high">
+      <img class="mascot-frame" src="assets/frame-02.png" width="1024" height="1536" alt="" decoding="async">
+      <img class="mascot-frame" src="assets/frame-03.png" width="1024" height="1536" alt="" decoding="async">
+      <img class="mascot-frame" src="assets/frame-04.png" width="1024" height="1536" alt="" decoding="async">
+      <img class="mascot-frame" src="assets/frame-05.png" width="1024" height="1536" alt="" decoding="async">
+    </div>
+    <section class="loading" aria-label="参观加载进度">
+      <h1>奶蛙带你参观港科广</h1>
+      <p class="traditional" lang="zh-Hant">奶蛙帶你參觀港科廣</p>
+      <div class="progress-meta"><span id="connection-status" role="status">正在加载图片…</span><span id="percentage">0%</span></div>
+      <div class="progress-track" id="progress" role="progressbar" aria-label="图片播放进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div>
+      <p id="departure-note">图片播放完毕，进度达到 100% 后自动前往学校官网</p>
+      <div class="controls"><button id="pause" type="button">暂停自动跳转</button><span aria-hidden="true">·</span><button id="enter" type="button" disabled><span id="enter-label">前往学校官网 ↗</span></button></div>
+      <p class="error-fallback" id="error-fallback" hidden><a href="https://www.hkust-gz.edu.cn/">手动前往学校官网 ↗</a></p>
+    </section>
+    <noscript><p class="fallback">需要 JavaScript 播放图片动画。<a href="https://www.hkust-gz.edu.cn/">手动前往学校官网 ↗</a></p></noscript>
+  </main>
+  <footer>学生趣味创作 · 非官方网站</footer>
+</body>
+</html>
